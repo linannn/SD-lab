@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1514088548 source:/home/linann/Codes/C++/fast-CDR/src/BadParamException.cpp
+	"../include/BadParamException.h"
+
+1514088548 /home/linann/Codes/C++/fast-CDR/include/BadParamException.h
+	"Exception.h"
+
+1514088548 /home/linann/Codes/C++/fast-CDR/include/Exception.h
+	"fastcdr_dll.h"
+	<string>
+	<exception>
+
+1514088548 /home/linann/Codes/C++/fast-CDR/include/fastcdr_dll.h
+	"eProsima_auto_link.h"
+
+1514088548 /home/linann/Codes/C++/fast-CDR/include/eProsima_auto_link.h
+
+1514089744 source:/home/linann/Codes/C++/fast-CDR/main.cpp
+	<iostream>
+	"include/Cdr.h"
+	"include/my_stack.h"
+
+1514088548 /home/linann/Codes/C++/fast-CDR/include/Cdr.h
+	"fastcdr_dll.h"
+	"FastBuffer.h"
+	"NotEnoughMemoryException.h"
+	<stdint.h>
+	<string>
+	<vector>
+	<malloc.h>
+	<stdlib.h>
+	<array>
+
+1514088548 /home/linann/Codes/C++/fast-CDR/include/FastBuffer.h
+	"fastcdr_dll.h"
+	<stdint.h>
+	<cstdio>
+	<string.h>
+	<cstddef>
+
+1514088548 /home/linann/Codes/C++/fast-CDR/include/NotEnoughMemoryException.h
+	"Exception.h"
+
+1514088548 /home/linann/Codes/C++/fast-CDR/include/my_stack.h
+
+1514088548 source:/home/linann/Codes/C++/fast-CDR/src/Cdr.cpp
+	"../include/Cdr.h"
+	"../include/BadParamException.h"
+
+1514088548 source:/home/linann/Codes/C++/fast-CDR/src/Exception.cpp
+	"../include/Exception.h"
+
+1514088548 source:/home/linann/Codes/C++/fast-CDR/src/FastBuffer.cpp
+	"../include/FastBuffer.h"
+	<malloc.h>
+	<stdlib.h>
+
+1514088548 source:/home/linann/Codes/C++/fast-CDR/src/FastCdr.cpp
+	"../include/FastCdr.h"
+	"../include/BadParamException.h"
+	<string.h>
+
+1514088548 /home/linann/Codes/C++/fast-CDR/include/FastCdr.h
+	"fastcdr_dll.h"
+	"FastBuffer.h"
+	"NotEnoughMemoryException.h"
+	<stdint.h>
+	<string>
+	<vector>
+	<malloc.h>
+	<stdlib.h>
+	<array>
+
+1514088548 source:/home/linann/Codes/C++/fast-CDR/src/my_stack.cpp
+	"../include/my_stack.h"
+	<iostream>
+
+1514088548 source:/home/linann/Codes/C++/fast-CDR/src/NotEnoughMemoryException.cpp
+	"../include/NotEnoughMemoryException.h"
+
